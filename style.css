@@ -1,0 +1,20 @@
+body {
+  background-color: lightblue;
+}
+
+h2 {
+  color: #00459e;
+  text-align: center;
+}
+
+p {
+  font: normal 20px Arial, Helvetica, sans-serif;
+  color: blue;
+}
+pre {
+  font: normal 20px Arial, Helvetica, sans-serif;
+  color: blue;
+}
+a {
+  font: normal bold 20px Arial, Helvetica, sans-serif;
+}
