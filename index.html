@@ -4,38 +4,174 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My CV</title>
+    <link rel="icon" href="assets/Icon.png" />
+    <title>CV</title>
   </head>
   <body>
-    <h2>Name and Last Name</h2>
-    <p>Dmitry Chelei</p>
-    <h2>Contacts of communication</h2>
-    <p>Tel. +375 (29) 808-28-23</p>
-    <p>e-mail: dima09072001@mail.ru</p>
-    <p>Discord: @dmitrychelei</p>
-    <h2>Information about me and my goal</h2>
-    <p>
-      Now I work in a gas supply company. I live in Belarus, in the city of
-      Brest. In my free time I go to the gym. Currently studying at Rolling
-      Scopes School.
-    </p>
-    <pre>
-My goal is to learn new skills that will help me get a more intersting job. I would like to move on and learn something new. 
-My strengths: I know how to communicate with people, sociability.</pre
-    >
-    <h2>Skills</h2>
-    <p>
-      I tired to learn the JS programming language based on Vladilen Minin's
-      video courses.
-    </p>
-    <h2>Experience</h2>
-    <p>Now I work in a gas supply company (I service gas equipment)</p>
-    <h2>Education</h2>
-    <pre><a href="http://sch3.bereza.edu.by/"> Secondary school №3, Bereza </a>
-<a href='http://bsch.bereza.edu.by/'> Basic School named after A. N. Zastavny</a>
-<a href='http://bspc.bstu.by/ru/home'> Brest State Polytechnic College </a>
-<a href='https://www.bstu.by/'> Brest state Technical University(studying now) </a></pre>
-    <h2>English language level</h2>
-    <p>A1.</p>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="avatar">
+          <img
+            class="avatar"
+            src="assets/img/avatar.png "
+            alt="My Photo"
+            height="180px"
+            width="180px"
+          />
+        </section>
+        <section class="section" id="profile">
+          <h1 class="main-title">Dmitry Chelei</h1>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="items">
+            <li class="item">
+              tel:
+              <a href="tel:+375298082823" class="link">+375 (29) 808-28-23</a>
+            </li>
+            <li class="item">
+              e-mail:
+              <a href="mailto:dima09072001@mail.ru" class="link"
+                >dima09072001@mail.ru</a
+              >
+            </li>
+            <li class="item">
+              Discord:
+              <a
+                href="https://discordapp.com/users/528288287090278421"
+                class="link"
+                >@dmitrychelei</a
+              >
+            </li>
+            <li class="item">
+              GitHub:
+              <a href="https://github.com/DmitryChelei" class="link"
+                >DmitryChelei</a
+              >
+            </li>
+          </ul>
+          <ul></ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            Now I work in a gas supply company. I live in Belarus, in the city
+            of Brest. In my free time I go to the gym. Currently studying at
+            Rolling Scopes School.
+          </p>
+          <p>
+            My goal is to learn new skills that will help me get a more
+            intersting job. I would like to move on and learn something new. My
+            strengths: I know how to communicate with people, sociability.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="items">
+            <li class="item">HTML</li>
+            <li class="item">CSS</li>
+            <li class="item">JavaScript</li>
+          </ul>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="items">
+            <li class="item">
+              <a href="https://ru.code-basics.com/languages/html" class="link"
+                >Code Basics HTML</a
+              >
+            </li>
+            <li class="item">
+              <a href="https://ru.code-basics.com/languages/css" class="link"
+                >Code Basics CSS</a
+              >
+            </li>
+            <li class="item">
+              <a href="https://rs.school/js-stage0/" class="link"
+                >Rolling Scopes School JS/FE Pre-School</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            function multiply(a = 40, b = 4){ 
+              return a * b 
+            };
+            console.log(multiply);
+          </pre>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="items">
+            <li class="item">
+              <a href="http://bspc.bstu.by/ru/home" class="link"
+                >Brest State Polytechnic College</a
+              >
+            </li>
+            <li class="item">
+              <a href="https://www.bstu.by/" class="link"
+                >Brest State Technical University</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <p>A1 - Starter(Beginner)</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="div-footer">
+          <a href="https://github.com/DmitryChelei" class="link-footer">
+            DmitryChelei
+          </a>
+        </div>
+        <div class="div-footer">
+          <p>© 2022 by Dmitry Chelei</p>
+        </div>
+        <div class="section-footer">
+          <a href="https://rs.school/js/" class="link">
+            <img
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="logoRSS"
+              class="logo"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
