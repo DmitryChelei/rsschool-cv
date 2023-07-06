@@ -136,6 +136,8 @@ pre {
   position: relative;
   top: 20px;
   left: 100px;
+  height: 180px;
+  width: 180px;
 }
 
 .logo {
