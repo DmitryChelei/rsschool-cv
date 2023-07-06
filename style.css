@@ -130,6 +130,9 @@ pre {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 7px;
+  position: relative;
+  top: 20px;
+  left: 450px;
 }
 
 .avatar {
